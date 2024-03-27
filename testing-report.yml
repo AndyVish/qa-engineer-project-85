@@ -1,0 +1,64 @@
+---
+- summary: |
+    Успешная регистрация с помощью Github
+  status: pass
+
+- summary: |
+    Успешная регистрация с помощью Discord
+  status: pass
+
+- summary: |
+    Успешная регистрация с помощью Email
+  status: pass
+
+- summary: |
+    Проверка уникальности Nickname при регистрации
+  status: pass
+
+- summary: |
+    Проверка уникальности Email при регистрации
+  status: pass
+
+- summary: |
+    Успешная авторизация с помощью Github
+  status: pass
+
+- summary: |
+    Успешная авторизация с помощью Discord
+  status: pass
+
+- summary: |
+    Успешная авторизация с помощью Email
+  status: pass
+
+- summary: |
+    Попробовать игру без регистарации
+  status: pass
+
+- summary: |
+    Пользователь может играть с случайным соперником    
+  status: pass
+
+- summary: |
+    Выбрать соперника для игры
+  status: pass
+
+- summary: |
+    Выбрать в соперники бота
+  status: pass
+
+- summary: |
+    Выбрать сложность решаемой задачи
+  status: pass
+
+- summary: |
+    Выборать язык программирования во время игры
+  status: pass
+    
+- summary: |
+    Возможно видить процесс кодинга соперника во время игры
+  status: pass
+  
+- summary: |
+    Проверка решения задачи
+  status: pass
