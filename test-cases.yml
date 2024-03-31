@@ -258,6 +258,21 @@
     - Нажать кнопку  create battle
     - Выбрать язык Node.js
     - В редакторе кода заменить функцию на const solution = (width, length) => { return width * length;}; 
-    - Назжать на кнопку Run
+    - Нажать на кнопку Run
   expected-result: |
     Пользователи должен увидить диалоговое окно с надписью "Woohoo, you're Champion!!!!!
+
+- summary: |
+    При смене Nickname можно использовать символы, заперщенные при регистрации
+  requirement: |
+    Пользователь не может использовать запрещеные при регистрации сиволы для смены Nickname
+  prerequisites: |
+    Авторизоваться
+  test-data: |
+    badStrng="\0'<>'\0"
+  steps:
+    - Перейти на страницу https://codebattle.hexlet.io/settings
+    - В поле Your name ввести badString
+    - Нажать на кнопку Save
+  expected-result: |
+    Пользователи должен получить сообщение об ограничениях для ввода, такое же как при регистрации
